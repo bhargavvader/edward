@@ -1,8 +1,7 @@
-% Define the subtitle of the page
 \title{Home}
 
-% Begin the content of the page
 \subsection{A library for probabilistic modeling, inference, and criticism.}
+
 Edward is a Python library for probabilistic modeling, inference, and
 criticism. It is a testbed for fast experimentation and research with
 probabilistic models, ranging from classical hierarchical models on
@@ -31,8 +30,13 @@ It supports \textbf{inference} with
     \item Variational auto-encoders
     \item Inclusive KL divergence: $\text{KL}(p\|q)$
   \end{itemize}
-\item Marginal posterior optimization (empirical Bayes, marginal maximum
-likelihood)
+\item Monte Carlo
+  \begin{itemize}
+    \item Hamiltonian Monte Carlo
+    \item Stochastic gradient Langevin dynamics
+    \item Metropolis-Hastings
+  \end{itemize}
+\item Marginal optimization (empirical Bayes, marginal maximum likelihood)
   \begin{itemize}
     \item Variational EM
   \end{itemize}
@@ -66,7 +70,7 @@ are
 \end{itemize}
 We are open to collaboration, and welcome
 researchers and developers to contribute. Check out the
-\href{contributing}{contributing page} for how to improve Edward's software.
+\href{/contributing}{contributing page} for how to improve Edward's software.
 For broader research challenges, shoot one of us an e-mail.
 
 Edward has benefited enormously from the helpful feedback and advice
